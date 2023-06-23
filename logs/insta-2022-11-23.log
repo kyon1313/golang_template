@@ -1,0 +1,5 @@
+2022/11/23 14:08:52.983447 main.go:36: Start of Entry After Re-run
+2022/11/23 14:08:52.983788 main.go:49: listen tcp4 :5010: bind: address already in use
+2022/11/23 14:09:03.005599 main.go:36: Start of Entry After Re-run
+2022/11/23 14:09:10.615475 users.go:106: Verify Account Query: &{0x140000ee1b0 <nil> 1 0x140006be1c0 0}
+2022/11/23 14:09:15.589048 users.go:106: Verify Account Query: &{0x140000ee090 <nil> 1 0x1400046a380 0}

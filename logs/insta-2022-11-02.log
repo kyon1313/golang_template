@@ -1,0 +1,2 @@
+2022/11/02 08:41:54.495236 main.go:36: Start of Entry After Re-run
+2022/11/02 08:42:11.422381 users.go:106: Verify Account Query: &{0xc000186360 <nil> 1 0xc00046c540 0}

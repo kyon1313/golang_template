@@ -1,0 +1,21 @@
+2022/10/26 13:29:33.118002 main.go:36: Start of Entry After Re-run
+2022/10/26 13:29:38.432653 users.go:106: Verify Account Query: &{0x1400052c090 <nil> 1 0x1400052a1c0 0}
+2022/10/26 13:36:12.000892 main.go:36: Start of Entry After Re-run
+2022/10/26 13:39:41.177055 main.go:36: Start of Entry After Re-run
+2022/10/26 13:40:41.692114 main.go:36: Start of Entry After Re-run
+2022/10/26 13:41:30.884251 main.go:36: Start of Entry After Re-run
+2022/10/26 13:41:34.914879 users.go:106: Verify Account Query: &{0x140001fc5a0 <nil> 1 0x1400042e540 0}
+2022/10/26 13:43:19.896828 main.go:36: Start of Entry After Re-run
+2022/10/26 13:46:26.095682 main.go:36: Start of Entry After Re-run
+2022/10/26 13:47:44.383635 main.go:36: Start of Entry After Re-run
+2022/10/26 13:48:37.844151 main.go:36: Start of Entry After Re-run
+2022/10/26 13:49:28.119753 main.go:36: Start of Entry After Re-run
+2022/10/26 13:51:58.863926 main.go:36: Start of Entry After Re-run
+2022/10/26 13:52:08.244317 users.go:106: Verify Account Query: &{0x1400014e750 <nil> 1 0x1400042e540 0}
+2022/10/26 15:52:42.428350 main.go:36: Start of Entry After Re-run
+2022/10/26 15:52:48.646839 users.go:106: Verify Account Query: &{0x140005b4090 <nil> 1 0x140005b21c0 0}
+2022/10/26 15:53:33.540970 main.go:36: Start of Entry After Re-run
+2022/10/26 15:54:12.981473 main.go:36: Start of Entry After Re-run
+2022/10/26 15:57:42.580294 main.go:36: Start of Entry After Re-run
+2022/10/26 15:59:11.295994 main.go:36: Start of Entry After Re-run
+2022/10/26 15:59:27.803251 main.go:36: Start of Entry After Re-run

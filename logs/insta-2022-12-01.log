@@ -1,0 +1,9 @@
+2022/12/01 10:56:32.092423 main.go:36: Start of Entry After Re-run
+2022/12/01 10:56:41.751733 users.go:106: Verify Account Query: &{0x14000186240 <nil> 1 0x140003b81c0 0}
+2022/12/01 10:57:07.718804 users.go:106: Verify Account Query: &{0x14000186090 <nil> 1 0x140003b8540 0}
+2022/12/01 10:57:08.679877 users.go:106: Verify Account Query: &{0x140000f4090 <nil> 0 0x1400046a540 0}
+2022/12/01 10:57:11.676795 users.go:106: Verify Account Query: &{0x1400019c090 <nil> 0 0x1400019a1c0 0}
+2022/12/01 10:57:14.194975 users.go:106: Verify Account Query: &{0x140001862d0 <nil> 0 0x140003b88c0 0}
+2022/12/01 10:57:18.416384 users.go:106: Verify Account Query: &{0x140000f41b0 <nil> 0 0x1400046a8c0 0}
+2022/12/01 10:57:25.016482 users.go:106: Verify Account Query: &{0x14000186510 <nil> 0 0x140003b8c40 0}
+2022/12/01 10:57:29.521370 users.go:106: Verify Account Query: &{0x14000186750 <nil> 1 0x140003b8fc0 0}

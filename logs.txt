@@ -1,0 +1,89 @@
+//--- https://dev-rbi-instapay01.fortress-asya.com/api/v1/ips/ips-payments/health-checks ---
+2022/10/06 10:39:59.672557 signOn.go:92: Do Resp: &{200 OK 200 HTTP/1.1 1 1 map[Access-Control-Allow-Origin:[*] Content-Length:[2886] Content-Type:[text/plain; charset=utf-8] Date:[Thu, 06 Oct 2022 02:39:59 GMT] Vary:[Origin]] 0xc000080240 2886 [] false false map[] 0xc00013a200 0xc00017e0b0}
+2022/10/06 10:39:59.672642 signOn.go:96: Before Body: &{200 OK %!s(int=200) HTTP/1.1 %!s(int=1) %!s(int=1) map[Access-Control-Allow-Origin:[*] Content-Length:[2886] Content-Type:[text/plain; charset=utf-8] Date:[Thu, 06 Oct 2022 02:39:59 GMT] Vary:[Origin]] %!s(*http.bodyEOFSignal=&{0xc000080000 {0 0} false <nil> 0x656840 0x656940}) %!s(int64=2886) [] %!s(bool=false) %!s(bool=false) map[] %!s(*http.Request=&{PUT 0xc000176120 HTTP/1.1 1 1 map[Content-Type:[text/xml; charset=utf-8]] {0xc00011a660} 0x642f80 2889 [] false dev-rbi-instapay01.fortress-asya.com map[] map[] <nil> map[]   <nil> <nil> <nil> 0xc000018080}) %!s(*tls.ConnectionState=&{772 true false 4865  true dev-rbi-instapay01.fortress-asya.com [0xc0000e9600 0xc0000e9b80 0xc0000ea100] [[0xc0000e9600 0xc000169080] [0xc0000e9600 0xc0000e9b80 0xc000169600]] [] [] [] 0x5f4ee0})}
+2022/10/06 10:39:59.672724 signOn.go:111: End SignOn
+
+<Message>
+    <AppHdr>
+        <Fr>
+            <FIId>
+                <FinInstnId>
+                    <BICFI>CAMZPHM2XXX</BICFI>
+                </FinInstnId>
+            </FIId>
+            <BrnchId>
+                <Id></Id>
+            </BrnchId>
+        </Fr>
+        <To>
+            <FIId>
+                <FinInstnId>
+                    <BICFI>CAMZPHM2XXX</BICFI>
+                </FinInstnId>
+            </FIId>
+            <BrnchId>
+                <Id></Id>
+            </BrnchId>
+        </To>
+        <BizMsgIdr>B20221006CAMZPHM2XXXBS0000000000001</BizMsgIdr>
+        <MsgDefIdr>admn.006.001.01</MsgDefIdr>
+        <CreDt>2022-10-06T11:04:23Z</CreDt>
+        <Sgntr>
+            <Signature>
+                <SignedInfo>
+                    <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+                    <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+                    <Reference>
+                        <Transforms>
+                            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+                            <Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+                        <DigestValue>9hPT1c6xW819uVghL+Wjxv0dNx5giE9pddyh46mv2as=</DigestValue>
+                        <URI></URI>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>ZSje67SH6XcEWMsBnDxzrUMAhxZM75KaXwZpVSsL/s9XUF3nRp8RtqAIWmvjCmzb5Ma37FmMdzmcKBl/UXyvRPWFkWh+paT3x8Yu6gfxZe6eDnub8q36nyCJvIc0iTvLylQc+q+uJ66zax5r2L2A7whFifl4X16YM42m6z4tDFkcrZFpJZ/IiB0rgU0lE8G7igHCIoWK6gz5L25z7fyvKSZJyL7EtrV/aQ3uwmmlCNzX0w0182VAaZPgd/p6Y1fHwNKO3BJcr1WgTBj8dao2tQlYNCI8SvaVVeKqKRFl9A8i/A5lk8DuZvWZ5NF+5ZSfQPY/gj9hNoXj/FZwMhnwmA==</SignatureValue>
+                <KeyInfo>
+                    <X509Data>
+                        <X509IssuerSerial>
+                            <X509IssuerName>CN=Entrust Certification Authority - L1K, OU=&#34;(c) 2012 Entrust, Inc. - for authorized use only&#34;, OU=See www.entrust.net/legal-terms, O=&#34;Entrust, Inc.&#34;, C=US</X509IssuerName>
+                            <X509SerialNumber>155857127407426465735088155315021331294</X509SerialNumber>
+                        </X509IssuerSerial>
+                        <X509SubjectName>CN=rtp.iliad-solutions.com, O=Iliad Solutions Inc, L=Minneapolis, ST=Minnesota, C=US</X509SubjectName>
+                    </X509Data>
+                </KeyInfo>
+            </Signature>
+        </Sgntr>
+    </AppHdr>
+    <EchoResponse>
+        <AdmnEchoResp>
+            <GrpHdr>
+                <MsgId>M20221006B0000000001</MsgId>
+                <CreDtTm>2022-10-06T11:04:23.249</CreDtTm>
+            </GrpHdr>
+            <EchoResp>
+                <InstgAgt>
+                    <FinInstnId>
+                        <BIC></BIC>
+                    </FinInstnId>
+                </InstgAgt>
+                <InstdAgt>
+                    <FinInstnId>
+                        <BIC></BIC>
+                    </FinInstnId>
+                </InstdAgt>
+                <OrgnlInstrId></OrgnlInstrId>
+                <FnctnCd></FnctnCd>
+                <TxSts>ACTC</TxSts>
+            </EchoResp>
+        </AdmnEchoResp>
+    </EchoResponse>
+</Message>
+
+
+//--- http://180.92.179.7:443/ips-payments/health-checks -----------------------------------
+2022/10/06 11:01:46.049468 signOn.go:88: Client Timeout Error: Put "http://180.92.179.7:443/ips-payments/health-checks": read tcp 10.148.0.2:34804->180.92.179.7:443: read: connection timed out
+2022/10/06 11:01:46.049522 signOn.go:92: Do Resp: <nil>
+2022/10/06 11:01:46.049545 signOn.go:111: End SignOn
+

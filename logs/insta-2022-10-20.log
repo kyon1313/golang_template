@@ -1,0 +1,31 @@
+2022/10/20 08:13:33.336397 main.go:36: Start of Entry After Re-run
+2022/10/20 08:16:59.752775 users.go:107: Verify Account Query: &{0x140004ba090 <nil> 1 0x140004b81c0 0}
+2022/10/20 08:28:39.715319 main.go:36: Start of Entry After Re-run
+2022/10/20 08:29:21.565609 main.go:36: Start of Entry After Re-run
+2022/10/20 08:32:08.717344 main.go:36: Start of Entry After Re-run
+2022/10/20 08:35:13.012230 main.go:36: Start of Entry After Re-run
+2022/10/20 08:35:41.270015 main.go:36: Start of Entry After Re-run
+2022/10/20 08:37:01.292564 main.go:36: Start of Entry After Re-run
+2022/10/20 08:39:43.153147 main.go:36: Start of Entry After Re-run
+2022/10/20 08:40:22.981426 main.go:36: Start of Entry After Re-run
+2022/10/20 08:42:00.063757 main.go:36: Start of Entry After Re-run
+2022/10/20 08:42:43.848953 main.go:36: Start of Entry After Re-run
+2022/10/20 08:42:57.861008 main.go:36: Start of Entry After Re-run
+2022/10/20 08:43:07.755083 main.go:36: Start of Entry After Re-run
+2022/10/20 08:43:35.632736 main.go:36: Start of Entry After Re-run
+2022/10/20 08:47:45.385711 main.go:36: Start of Entry After Re-run
+2022/10/20 09:45:12.609628 main.go:36: Start of Entry After Re-run
+2022/10/20 09:54:59.589174 main.go:36: Start of Entry After Re-run
+2022/10/20 09:55:18.293293 main.go:36: Start of Entry After Re-run
+2022/10/20 10:00:15.566405 main.go:36: Start of Entry After Re-run
+2022/10/20 10:03:33.302469 main.go:36: Start of Entry After Re-run
+2022/10/20 10:04:04.870744 main.go:36: Start of Entry After Re-run
+2022/10/20 11:26:34.916329 users.go:107: Verify Account Query: &{0x140001fc1b0 <nil> 0 0x1400042e540 0}
+2022/10/20 11:26:40.908580 users.go:107: Verify Account Query: &{0x140001fc3f0 <nil> 0 0x1400042e8c0 0}
+2022/10/20 11:29:11.891955 users.go:107: Verify Account Query: &{0x140001fc1b0 <nil> 1 0x1400042e380 0}
+2022/10/20 11:57:31.764108 main.go:36: Start of Entry After Re-run
+2022/10/20 11:59:22.306636 main.go:36: Start of Entry After Re-run
+2022/10/20 12:00:11.813513 main.go:36: Start of Entry After Re-run
+2022/10/20 13:06:12.920496 main.go:36: Start of Entry After Re-run
+2022/10/20 13:06:21.972298 users.go:106: Verify Account Query: &{0x1400022c1b0 <nil> 1 0x1400046a380 0}
+2022/10/20 13:51:35.105085 users.go:106: Verify Account Query: &{0x1400022c1b0 <nil> 1 0x140006c41c0 0}

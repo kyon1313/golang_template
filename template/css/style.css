@@ -1,0 +1,12 @@
+a.no-underline {
+    text-decoration: none;
+
+}
+
+input#loginUsername,
+#loginPassword {
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
